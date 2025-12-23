@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gloria's Birthday Card</title>
+  <link rel="stylesheet" href="gloria.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="container">
+    <!-- PAGE 1 -->
+    <section id="page1" class="page active" style="background-image: url('images/page1.jpg');">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Happy Birthday, Gloria 🎂🎈💖</h1>
+        <p>ou’re honestly one of the most kind, captivating, and lovely people to be around even if you can be a little annoying sometimes 😅. But that’s exactly what makes you unforgettable. I hope your day is filled with laughter, love, and all the joy you bring to everyone else just by being you. You truly deserve the best today and always! 🥳✨</p>
+        <button onclick="nextPage()">Next</button>
+      </div>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section id="page2" class="page" style="background-image: url('images/page2.jpg');">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Gloria,</h1>
+        <p>You’re honestly one of the most kind, captivating, and lovely people to be around even if you can be a little annoying sometimes 😅. But that’s exactly what makes you unforgettable. I hope your day is filled with laughter, love, and all the joy you bring to everyone else just by being you. You truly deserve the best today and always! 🥳✨!</p>
+        <button onclick="prevPage()">Back</button>
+        <button onclick="nextPage()">Next</button>
+      </div>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section id="page3" class="page" style="background-image: url('images/page3.jpg');">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Omotanwa,</h1>
+        <p>I pray that God helps you in this new year, things fall in the right place, and you walk in alignment with His will.</p>
+        <button onclick="prevPage()">Back</button>
+        <button onclick="nextPage()">Next</button>
+      </div>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section id="page4" class="page" style="background-image: url('images/page4.jpg');">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Yem Yem 💖</h1>
+        <p>I pray today and always, that God fills your life with endless joy, love, and peace. May He guide your steps, protect you from harm, and bless you with success in everything you do. I pray for laughter to follow you, dreams to come true, and your heart to always be happy. You’re such a special person, and I hope this year brings you all the beautiful things you truly deserve.</p>
+        <button onclick="prevPage()">Back</button>
+        <button onclick="nextPage()">Next</button>
+      </div>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section id="page5" class="page" style="background-image: url('images/page5.jpg');">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Gloria,</h1>
+        <p>You’re one of those rare souls endlessly kind, effortlessly radiant, and truly a joy to be around. Sure, you can be a little bit of a lovable handful sometimes 😅, but that’s part of your magic. It’s what makes you unforgettable. On this special day, I pray: Olorun fi ayọ, ìfẹ́, àti aṣeyọrí kún ayé rẹ. Kí gbogbo ìgbésẹ rẹ máa lọ ní ìtẹlọ́run, kí gbogbo ohun tí o fẹ́ ṣẹlẹ fún ọ. May today shine brightly for you. Laugh loud, love deeply, and soak in every beautiful moment. You deserve nothing less than a lifetime of happiness, and I’m so grateful to know you. 🥳✨</</p>
+        <p><strong>From Jo_ker 💙</strong></p>
+        <button onclick="prevPage()">Back</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="gloria.js"></script>
+</body>
+</html>
